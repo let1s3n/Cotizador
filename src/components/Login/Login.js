@@ -14,7 +14,10 @@ class Login extends React.Component {
   render() {
     return (
       <div className="container container-form">
-        <h6>Ingresa los datos para comenzar</h6>
+        <hgroup className="title-group">
+          <h5 className="login-title">Obtén tu <span className="span-color-brand">seguro ahora</span></h5>
+          <h6>Ingresa los datos para comenzar</h6>
+        </hgroup>
         <div className="row">
           <form className="col s12">
             <div className="row">

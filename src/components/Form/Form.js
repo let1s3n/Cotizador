@@ -11,8 +11,10 @@ class Form extends React.Component {
     return (
       
       <div className="container container-form">
-        {/* {console.log(doc)} */}
+        <hgroup className="title-group">
         <h6>Datos Personales del titular</h6>
+        </hgroup>
+        
         <div className="row">
           <form className="col s12">
 

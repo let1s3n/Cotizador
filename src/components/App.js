@@ -4,7 +4,8 @@ import LeftImage from './LeftImage/LeftImage'
 import LeftImage1 from './LeftImage1/LeftImage1'
 import Form from './Form/Form'
 import Collapsible from './Collapsible/Collapsible'
-import 'materialize-css/dist/css/materialize.min.css'
+/* import 'materialize-css/dist/css/materialize.min.css' */
+import 'materialize-css/sass/materialize.scss'
 import '../index.scss'
 import M from 'materialize-css/dist/js/materialize.js'
 

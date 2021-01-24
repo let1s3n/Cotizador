@@ -1,3 +1,7 @@
+$main-color: #2f80ed;
+$border-color: #9e9e9e;
+$color-white:#fff;
+
 .img-container{
   width:100%;
   height: auto;
@@ -20,7 +24,7 @@
 
 .img-text-container{
   padding:5vw;
-  color:white;
+  color:$color-white;
 }
 
 .container-form{
@@ -28,9 +32,16 @@
   height: auto;
   padding:5vw;
 }
+.title-group{
+  display: block;
+  margin-bottom:40px;
+}
+.span-color-brand{
+  color:$main-color;
+}
 
 .input-field input[type=text]{
-  border: 1px solid #9e9e9e;
+  border: 1px solid $border-color;
   border-radius: 3.5%;
 }
 
@@ -69,24 +80,8 @@ input[type=text]:not(.browser-default):focus:not([readonly]) {
 }
 
 .btn, .btn-large, .btn-small{
-background-color:#2f80ed !important;
-}
-
-.radio-container{
-  position:relative !important;
-  border:1px solid red;
-}
-
-.radio-container > input[type=radio]{
-  position:absolute !important;
-  left:30px;
-  bottom:100%;
-}
-.span-radio{
-  position:absolute !important;
-  top:20px;
-  left:-20px;
-
+background-color:$main-color !important;
+margin-top:30px !important;
 }
 
 @media only screen and (max-width: 499px) {
