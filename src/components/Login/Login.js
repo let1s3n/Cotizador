@@ -1,17 +1,10 @@
 import React from 'react'
-import M from 'materialize-css'
 
 import {
   Link
 } from "react-router-dom";
 
 class Login extends React.Component {
-  componentDidMount() {
-    document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('.datepicker');
-      var instances = M.Datepicker.init(elems);
-    });
-  }
   handleChange = (event) => {
     const { name, value } = event.target;
     this.props.handleLoginChange(name, value);
@@ -64,9 +57,9 @@ class Login extends React.Component {
             </p>
 
             <Link to="/login-check">
-              <a class="waves-effect waves-light btn-large">
+              <button class="waves-effect waves-light btn-large">
                 Comencemos
-              </a>
+              </button>
             </Link>
 
 

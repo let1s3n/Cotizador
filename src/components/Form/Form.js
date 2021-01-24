@@ -85,9 +85,9 @@ class Form extends React.Component {
             </div>
 
             <Link to="/planes">
-              <a class="waves-effect waves-light btn-large">
+              <button class="waves-effect waves-light btn-large">
                 Continuar
-              </a>
+              </button>
             </Link>
           </form>
         </div>
