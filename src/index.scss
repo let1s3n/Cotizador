@@ -1,0 +1,73 @@
+.img-container{
+  width:100%;
+  height: auto;
+}
+
+.img-bg{
+  background-image: url('./components/Login/base.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 70vh;
+  height: 70vh;
+  position: relative;
+}
+
+.sub-img{
+  position:absolute;
+  bottom:3vw;
+  right:-50px;
+}
+
+.img-text-container{
+  padding:5vw;
+  color:white;
+}
+
+.container-form{
+  width:100%;
+  height: auto;
+  padding:5vw;
+}
+
+.input-field input[type=text]{
+  border: 1px solid #9e9e9e;
+  border-radius: 3.5%;
+}
+
+.input-field>label:not(.label-icon){
+  transform:translateX(5px) translateY(5px) !important
+}
+
+.input-field>label:not(.label-icon).active{
+  transform:translateY(-2px) scale(0.8) !important;
+  transform-origin: 20px 20px !important;
+}
+
+input:not([type]), 
+input[type=text]:not(.browser-default), 
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+    padding-top:1.3em !important;
+    height: 2rem !important;
+}  
+
+.input-field.input-field-form{
+  margin:0 !important;
+}
+
+.collection.custom-collection{
+  border:none;
+}
+
+.collection .collection-item.custom-collection-item{
+  background-color:transparent;
+  border:none;
+}
+
+.leftSide-footer{
+  position:absolute;
+  bottom:3vw;
+}
+
+.btn, .btn-large, .btn-small{
+background-color:#2f80ed !important;
+}
