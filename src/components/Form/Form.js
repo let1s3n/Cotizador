@@ -1,9 +1,6 @@
 import React from 'react'
 
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
   Link
 } from "react-router-dom";
 
@@ -42,12 +39,12 @@ class Form extends React.Component {
               </div>
 
               <div className="input-field col s12 input-field-form">
-                <input id="apellido_materno" id="apellido_materno" type="text" className="validate" />
+                <input id="apellido_materno" name="apellido_materno" type="text" className="validate" />
                 <label className="active" htmlFor="apellido_materno">Apellido Materno</label>
               </div>
 
               <div className="input-field col s12 input-field-form">
-                <input id="fecha_nac" id="fecha_nac" type="text" className="datepicker validate" value={fecha_nac} />
+                <input id="fecha_nac" name="fecha_nac" type="text" className="datepicker validate" value={fecha_nac} />
                 <label className="active" htmlFor="fecha_nac">Fecha de nacimiento</label>
               </div>
 

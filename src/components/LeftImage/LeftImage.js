@@ -7,7 +7,7 @@ const LeftImage = () => {
     <div className="col s7 asdr">
       <div className="img-container">
         <div className="img-bg">
-          <img src={img1} className="sub-img"/>
+          <img src={img1} className="sub-img" alt="decoracion-login"/>
           <div className="container img-text-container">
             <h3>
               Seguro de <strong>Salud</strong>
