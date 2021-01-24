@@ -71,3 +71,13 @@ input[type=text]:not(.browser-default):focus:not([readonly]) {
 .btn, .btn-large, .btn-small{
 background-color:#2f80ed !important;
 }
+
+
+@media only screen and (max-width: 499px) {
+  .col.s7.asdr{
+    display:none !important;
+  }
+  .row .col.s5.asdb{
+    width:100% !important;
+  }
+}
