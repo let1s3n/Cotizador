@@ -86,4 +86,14 @@ background-color:#2f80ed !important;
   position:absolute !important;
   top:20px;
   left:-20px;
+
+}
+
+@media only screen and (max-width: 499px) {
+  .col.s7.asdr{
+    display:none !important;
+  }
+  .row .col.s5.asdb{
+    width:100% !important;
+  }
 }
