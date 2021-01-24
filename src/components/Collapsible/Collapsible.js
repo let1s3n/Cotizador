@@ -1,31 +1,22 @@
 import React from 'react'
-import M from "materialize-css";
 
 
 class Collapsible extends React.Component {
+
   
-  componentDidMount(){
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.collapsible');
-      M.Collapsible.init(elems);
-    });
-  }
-  render(){
+
+  render() {
     return (
-      <ul className="collapsible">
-        <li className="active">
-          <div className="collapsible-header">First</div>
-          <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-        </li>
-        <li>
-          <div className="collapsible-header">Second</div>
-          <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-        </li>
-        <li>
-          <div className="collapsible-header">Third</div>
-          <div className="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-        </li>
-      </ul>
+      <div className="container">
+        <ul id="tabs-swipe-demo" className="tabs">
+          <li className="tab col s3"><a href="#test-swipe-1">Test 1</a></li>
+          <li className="tab col s3"><a class="active" href="#test-swipe-2">Test 2</a></li>
+          <li className="tab col s3"><a href="#test-swipe-3">Test 3</a></li>
+        </ul>
+        <div id="test-swipe-1" className="col s12 blue">Test 1</div>
+        <div id="test-swipe-2" className="col s12 red">Test 2</div>
+        <div id="test-swipe-3" className="col s12 green">Test 3</div>
+      </div>
     );
   }
 }

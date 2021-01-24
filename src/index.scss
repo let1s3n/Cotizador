@@ -71,3 +71,19 @@ input[type=text]:not(.browser-default):focus:not([readonly]) {
 .btn, .btn-large, .btn-small{
 background-color:#2f80ed !important;
 }
+
+.radio-container{
+  position:relative !important;
+  border:1px solid red;
+}
+
+.radio-container > input[type=radio]{
+  position:absolute !important;
+  left:30px;
+  bottom:100%;
+}
+.span-radio{
+  position:absolute !important;
+  top:20px;
+  left:-20px;
+}
