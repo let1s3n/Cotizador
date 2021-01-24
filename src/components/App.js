@@ -4,6 +4,9 @@ import LeftImage from './LeftImage/LeftImage'
 import LeftImage1 from './LeftImage1/LeftImage1'
 import Form from './Form/Form'
 import Collapsible from './Collapsible/Collapsible'
+import 'materialize-css/dist/css/materialize.min.css'
+import '../index.scss'
+import M from 'materialize-css/dist/js/materialize.js'
 
 
 import {
@@ -24,7 +27,12 @@ class App extends React.Component {
     }
   }
 
-
+  componeneDidMount() {
+    document.addEventListener('DOMContentLoaded', function() {
+      M.AutoInit();
+    
+    });
+  }
   handleLoginChange = (name, value) => {
     this.setState({
       [name]: value

@@ -55,13 +55,13 @@ class Form extends React.Component {
               <h6> Género</h6>
               <p>
                 <label>
-                  <input name="group1" type="radio" checked />
+                  <input className="with-gap" name="group1" type="radio" checked />
                   <span>Masculino</span>
                 </label>
               </p>
               <p>
                 <label>
-                  <input name="group1" type="radio" />
+                  <input className="with-gap" name="group1" type="radio" />
                   <span>Femenino</span>
                 </label>
               </p>
@@ -72,13 +72,13 @@ class Form extends React.Component {
               <h6> ¿A quién vamos a asegurar?</h6>
               <p>
                 <label>
-                  <input name="group1" type="radio" checked />
+                  <input className="with-gap" name="group2" type="radio" checked />
                   <span>Solo a mí</span>
                 </label>
               </p>
               <p>
                 <label>
-                  <input name="group1" type="radio" />
+                  <input className="with-gap" name="group2" type="radio" />
                   <span>A mí y a mi familia</span>
                 </label>
               </p>
